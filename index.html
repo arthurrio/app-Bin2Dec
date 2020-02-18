@@ -10,17 +10,22 @@
 </head>
 
 <body>
-    <form class="container">
-        <h1 class="content">Bin2Dec</h1>
-        <p>
-            <label for="binary">Binary:</label>
-            <input id="binary" required maxlength="8" pattern="[0-1]{8}" type="text" oninput="turnBinaryOnDecimal()">
-        </p>
-        <p>
-            <label for="decimal">Decimal:</label>
-            <input id="decimal" readonly type="number">
-        </p>
-    </form>
+    
+    <div class="center">
+        <h1 class="center">Bin2Dec</h1>
+        <form class="center">
+                
+            <p>
+                <label for="binary">Binary:</label>
+                <input id="binary" required maxlength="8" pattern="[0-1]{8}" type="text"
+                    oninput="turnBinaryOnDecimal()">
+            </p>
+            <p>
+                <label for="decimal">Decimal:</label>
+                <input id="decimal" readonly type="number">
+            </p>
+        </form>
+    </div>
 </body>
 
 </html>
